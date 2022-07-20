@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron print via ipcMain & ipcRenderer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Electron print via ipcMain & ipcRenderer</h1>
+    
+    <div class="box">
+      <div class="box-button">
+        <button id="send-print">Send <span>Print</span></button>
+        <span class="space"></span>
+        <p id="print-response">Click on button</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <span class="space"></span>
+    <span class="space"></span>
+    <span class="space"></span>
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "electron-quick-print",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with node-thermal-printer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild"
+  },
+  "repository": "https://github.com/antonarizal/electron-quick-print",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "printer"
+  ],
+  "author": "Anton Arizal",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  },
+  "dependencies": {
+    "@thiagoelg/node-printer": "^0.6.2",
+    "electron-rebuild": "^3.2.8",
+    "node-thermal-printer": "^4.1.2"
+  }
+}
